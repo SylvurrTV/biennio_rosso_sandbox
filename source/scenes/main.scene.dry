@@ -17,7 +17,7 @@ max-cards: 3
 
 [? if year = 1919 and month = 2 and week = 1: Friedrich Erbert is elected as the First President of Germany. The Weimar Republic is founded. ?]
 
-[? if year = 1919 and month = 2 and week = 3: The Republic of Poland invades the Russian SFSR and begins the *Soviet-Polish War*. ?]
+[? if year = 1919 and month = 2 and week = 3: Conflict erupts between the Republic of Poland and the Russian SFSR, beginning the *Soviet-Polish War*. ?]
 
 [? if year = 1919 and month = 3 and week = 1: The Communist International is founded. ?]
 
@@ -191,7 +191,7 @@ max-cards: 4
 
 [? if year = 1919 and month = 2 and week = 1: Friedrich Erbert is elected as the First President of Germany. The Weimar Republic is founded. ?]
 
-[? if year = 1919 and month = 2 and week = 3: The Republic of Poland invades the Russian SFSR and begins the *Soviet-Polish War*. ?]
+[? if year = 1919 and month = 2 and week = 3: Conflict erupts between the Republic of Poland and the Russian SFSR, beginning the *Soviet-Polish War*. ?]
 
 [? if year = 1919 and month = 3 and week = 1: The Communist International is founded. ?]
 
