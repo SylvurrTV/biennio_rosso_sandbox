@@ -11,6 +11,7 @@ go-to: sandbox_menu
 - @editresources: Edit Resources
 - @editpara_resources: Edit Paramilitary Resources
 - @editbudget: Edit Budget
+- @editeconomy: Edit Economy
 - @editrelations: Edit Party Relations
 - @editpartysupport: Edit Party Support
 - @editpartyfactions: Edit Party Factions
@@ -85,6 +86,64 @@ Q.resources -= 100;
 !}
 
 Removed 100 resources from the party's stockpile. This doesn't go to the homeless or anything, why would you do this?
+
+@editeconomy
+
+- @increasegrowth: Increase Economic Growth by 5%
+- @decreasegrowth: Decrease Economic Growth by 5%
+- @increaseinflation: Increase Inflation by 5%
+- @decreaseinflation: Decrease Inflation by 5%
+- @increaseunemployment: Increase Unemployment by 5%
+- @decreaseunemployment: Decrease Unemployment by 5%
+- @returnsandbox: Return To Sandbox Menu
+
+@increasegrowth
+go-to: editeconomy
+on-arrival: {!
+Q.economic_growth += 5;
+!}
+
+Increased economic growth by 5%.
+
+@decreasegrowth
+go-to: editeconomy
+on-arrival: {!
+Q.economic_growth -= 5;
+!}
+
+Decreased economic growth by 5%.
+
+@increaseinflation
+go-to: editeconomy
+on-arrival: {!
+Q.inflation += 5;
+!}
+
+Increased inflation by 5%.
+
+@decreaseinflation
+go-to: editeconomy
+on-arrival: {!
+Q.inflation -= 5;
+!}
+
+Decreased inflation by 5%.
+
+@increaseunemployment
+go-to: editeconomy
+on-arrival: {!
+Q.unemployment += 5;
+!}
+
+Increased unemployment by 5%.
+
+@decreaseunemployment
+go-to: editeconomy
+on-arrival: {!
+Q.unemployment -= 5;
+!}
+
+Decreased unemployment by 5%.
 
 @editpara_resources
 
